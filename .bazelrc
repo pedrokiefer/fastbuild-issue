@@ -1,0 +1,4 @@
+build --experimental_ui
+
+build:arm --crosstool_top=//tools/arm_compiler:toolchain --cpu=armeabi-v7a
+build:arm --spawn_strategy=standalone
