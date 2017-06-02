@@ -29,7 +29,7 @@ bind(
 
 new_git_repository(
   name = "org_openwrt_libubox",
-  remote = "http://gitlab.tothtecnologia.com.br/lifetouch17/libubox.git",
+  remote = "https://github.com/pedrokiefer/libubox.git",
   commit = "5f9f678701bd0a9f8674010ea2cdf89ac01b2aff",
   build_file = "third_party/libubox.BUILD",
 )
